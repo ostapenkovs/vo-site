@@ -3,5 +3,12 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Vasyl Ostapenko",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "vasyl-ostapenko",
+      },
+    },
+  ]
 };

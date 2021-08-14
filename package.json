@@ -12,10 +12,12 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "dependencies": {
     "gatsby": "^3.11.1",
+    "gatsby-plugin-s3": "^0.3.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
