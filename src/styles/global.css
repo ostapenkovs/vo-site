@@ -137,10 +137,26 @@ img {
   transform: scale(0.98);
 }
 
-@media(max-width: 900px) {
+@media(max-width: 950px) {
   .wrapper {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 3fr;
+    justify-items: center;
+  }
+
+  .box1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+  }
+
+  .box2 {
+    grid-column: 1/1;
+    grid-row: 2/2;   
+  }
+
+  .box3 {
+    grid-column: 1/1;
+    grid-row: 3/3;   
   }
 }
 
