@@ -32,8 +32,24 @@ p {
 }
 
 img {
-  width: 208px;
-  height: 277px;
+  width: 100%;
+}
+
+#face {
+  width:208px;
+  height:277px;
+}
+
+.social {
+  width:24px;
+  height:auto;
+  margin: auto auto 10px 10px;
+}
+
+.allsocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .navbar {
@@ -104,12 +120,6 @@ img {
 .box3 {
   grid-column: 2/4;
   grid-row: 2/2;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
 }
 
 .btn {
