@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.vasylostapenko.com",
+    siteUrl: "https://vasylostapenko.com",
     title: "Vasyl Ostapenko",
   },
   plugins: [
@@ -8,6 +8,8 @@ module.exports = {
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: "vasylostapenko.com",
+        protocol: "https",
+        hostname: "vasylostapenko.com",
       },
     },
   ]
