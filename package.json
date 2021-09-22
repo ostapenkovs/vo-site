@@ -16,7 +16,8 @@
     "deploy": "gatsby-plugin-s3 deploy"
   },
   "dependencies": {
-    "gatsby": "^3.11.1",
+    "gatsby": "^3.13.0",
+    "gatsby-plugin-google-gtag": "^3.13.0",
     "gatsby-plugin-s3": "^0.3.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
