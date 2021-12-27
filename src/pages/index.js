@@ -25,8 +25,8 @@ const IndexPage = () => {
           <img src={face} alt="Vasyl's face" id="face"></img>
         </div>
         <div className="box box2">
-          <h2>Statistics student at UCSB / Intern at Roivant Sciences</h2>
-          <p>Vasyl is a junior at UC Santa Barbara studying Statistics and Data Science. He is interested in software development, biotechnology, and financial markets. He is currently working on analysis and visualization of single cell data with PIVant. In his free time, Vasyl loves going on biking, surfing, or skiing adventures.</p>
+          <h2>Statistics and Data Science @ UCSB</h2>
+          <p>Vasyl is a junior at UC Santa Barbara studying Statistics and Data Science. He is interested in software development, biotechnology, and financial markets. In his free time, Vasyl loves going on biking, surfing, or skiing adventures.</p>
         </div>
         <div className="box box3">
           <ul>
